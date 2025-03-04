@@ -450,7 +450,7 @@ function connectDb() throws CriticalError {}
 </template>
 
 <template v-slot:right>
-  <video alt="Long scroll d'un thread Github" class="h-[24rem]" src="./assets/throw-issue.mov" autoplay loop></video>
+  <!-- <video alt="Long scroll d'un thread Github" class="h-[24rem]" src="./assets/throw-issue.mov" autoplay loop></video> -->
 </template>
 
 ---
