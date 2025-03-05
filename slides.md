@@ -17,7 +17,7 @@ layout: statement
 
 ---
 layout: image-right
-image: ./assets/clem-madere.jpeg
+image: /images/clem-madere.jpeg
 ---
 
 # whoami
@@ -120,7 +120,7 @@ layout: statement
 
 # Quizz
 
-<img alt="QR Code" src="./assets/qr-code.png" style="height: 20rem; margin: 0 auto; " />
+<img alt="QR Code" src="/images/qr-code.png" style="height: 20rem; margin: 0 auto; " />
 
 https://clemcode.github.io/happy-sad-voting/
 
@@ -177,7 +177,7 @@ layout: section
 transition: none
 ---
 
-<img src="./assets/error-matrix.svg" alt="error matrix: known or unknown / stop or continue ?" style="height: 40vh; margin: 0 auto;" />
+<img src="/images/error-matrix.svg" alt="error matrix: known or unknown / stop or continue ?" style="height: 40vh; margin: 0 auto;" />
 
 <!--
 Happy / sad path = subjectif
@@ -193,7 +193,7 @@ Axe vertical : Est-ce que le traitement doit continuer ou s'arrêter
 layout: section
 ---
 
-<img src="./assets/error-matrix-2.svg" alt="error matrix: known or unknown / stop or continue ?" style="height: 40vh; margin: 0 auto;" />
+<img src="/images/error-matrix-2.svg" alt="error matrix: known or unknown / stop or continue ?" style="height: 40vh; margin: 0 auto;" />
 
 ---
 layout: statement
@@ -392,7 +392,7 @@ try {
 
 ---
 layout: image-right
-image: ./assets/clean-code.jpg
+image: /images/clean-code.jpg
 ---
 
 ## Utiliser des exceptions plutôt que des codes d'erreur
@@ -450,7 +450,7 @@ function connectDb() throws CriticalError {}
 </template>
 
 <template v-slot:right>
-  <!-- <video alt="Long scroll d'un thread Github" class="h-[24rem]" src="./assets/throw-issue.mov" autoplay loop></video> -->
+  <!-- <video alt="Long scroll d'un thread Github" class="h-[24rem]" src="/images/throw-issue.mov" autoplay loop></video> -->
 </template>
 
 ---
@@ -497,7 +497,7 @@ layout: split
 
 <template v-slot:right>
 
-![Borne de freinage d'urgence](./assets/emergency-stop.jpg)
+![Borne de freinage d'urgence](/images/emergency-stop.jpg)
 
 <p class="text-xs">Photo de <a href="https://unsplash.com/fr/@two_tees?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matt Walsh</a> sur <a href="https://unsplash.com/fr/photos/appareil-rond-blanc-et-rouge-3wIKwi0YGPY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 </template>
@@ -511,7 +511,7 @@ Voyons voir du côté de Rust comment dont gérées les erreurs ?
 layout: section
 ---
 
-<img src="./assets/rust-ferris.svg" alt="rust logo" style="height: 8rem; margin-bottom: 2rem" />
+<img src="/images/rust-ferris.svg" alt="rust logo" style="height: 8rem; margin-bottom: 2rem" />
 
 ```rust
 use std::fs::File;
@@ -723,7 +723,7 @@ layout: split
 </template>
 
 <template v-slot:right>
-<img src="./assets/never-throw.png" alt="never throw" />
+<img src="/images/never-throw.png" alt="never throw" />
 
 [https://github.com/supermacro/neverthrow](https://github.com/supermacro/neverthrow)
 </template>
@@ -752,7 +752,7 @@ layout: statement
 
 <br />
 
-<img src="./assets/folktale.png" style="height: 40vh" />
+<img src="/images/folktale.png" style="height: 40vh" />
 
 ---
 layout: section
@@ -895,7 +895,7 @@ layout: split
 
 <template v-slot:right>
 
-<img src="./assets/lambda.webp" alt="Lambda" style="" />
+<img src="/images/lambda.webp" alt="Lambda" style="" />
 
 </template>
 

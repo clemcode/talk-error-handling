@@ -5,4 +5,4 @@ dist
 .vite-inspect
 .remote-assets
 components.d.ts
-assets/throw-issue.mov
+public/images/throw-issue.mov
